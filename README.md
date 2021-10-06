@@ -1,6 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ##  CRUD com nextJS e json-server
+CRUD simples utilizando as tecnologias:
+
+frontend: nextjs e react-bootstrap
+backend: NodeJS e json-server como banco de dados temporario
+
 ## Getting Started
 
 First, run the development server:
