@@ -62,7 +62,9 @@ export default function Crud(){
 
         return(
             <div>
+            <label>Nome:</label>
             <input type="text" value={name} onChange={(e)=>setName(e.target.value)}/>
+            <label>Email:</label>
             <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
             <button  onClick={enviarFormulario}>Enviar</button>
             <ul>
