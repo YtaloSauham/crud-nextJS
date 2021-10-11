@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <main className={styles.main}>
         <Hero
-          title="Crud Simples-Projeto pessoal com React"
+          title="Crud Simples-Projeto pessoal com NextJS"
           content=" Esse projeto tem como finalidade testar meus conhecimentos em frontend e
         backend."
         />
