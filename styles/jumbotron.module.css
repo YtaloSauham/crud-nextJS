@@ -1,0 +1,25 @@
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height:20em;
+    width: 100%;
+    background-image:url("../public/image-computer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+    
+}
+.title{
+    font-weight: bold;
+    color: white;
+}
+
+.bt{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

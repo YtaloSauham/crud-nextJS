@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import Footer from "../Footer/Footer";
+
 import Header from "../Header/Header";
 
 export default function Layout(props) {
@@ -8,7 +8,7 @@ export default function Layout(props) {
     <>
     <Header/>
       <Container>{props.children}</Container>
-      <Footer/>
+      
     </>
   );
 }
