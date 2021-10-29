@@ -95,20 +95,12 @@ export default function Crud(){
         setID('')
     }
 
-    // function enviarUpload(user){
-    //     axios.put(baseUrl+`/${user.id}`,{name,email})
-       
-    // }
-
+ 
 
 
         return(
             <div>
             <Container>
-            {/* <label>Nome:</label>
-            <input type="text" value={name} onChange={(e)=>setName(e.target.value)}/>
-            <label>Email:</label>
-            <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/> */}
             <Form noValidate validated={validated} onSubmit={save}>
             <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridName">

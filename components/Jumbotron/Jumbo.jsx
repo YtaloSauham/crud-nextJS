@@ -1,6 +1,6 @@
 import {Container,Button,Col,Row} from 'react-bootstrap';
 import style from "../../styles/jumbotron.module.css";
-
+import router,{ useRouter } from 'next/dist/client/router';
 export default function Jumbo(props){
    return (
     <div className={style.jumbotron}>
@@ -19,7 +19,7 @@ export default function Jumbo(props){
     </Row>
     <Row>
       <Col className={style.bt}>
-      <Button variant="primary">
+      <Button variant="primary" onClick={()=>{router.push(props.link)}}>
        {props.buttonName}
       </Button>
       </Col>
