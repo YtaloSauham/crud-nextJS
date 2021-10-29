@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <Navbar bg="light" expand="lg" sticky="top"  className="justify-content-center">
       <Container>
-        <Navbar.Brand className={style.linksText} href="/Home">CRUD-Simples</Navbar.Brand>
+        <Navbar.Brand className={style.linksText} href="/">CRUD-Simples</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
